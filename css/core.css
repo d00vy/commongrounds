@@ -1,19 +1,21 @@
 body {
     background: black;
     font-family: "Nunito";
+    color: white;
 }
 
+/* navbar */
 .navbar-brand {
   box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   0px 8px 13px rgba(0,0,0,0.1),
   0px 18px 23px rgba(0,0,0,0.1);
 }
-
 #navbar.scrolled {
   background: rgba(226, 226, 226, 0.6);
   transition: background 500ms;
 }
 
+/* header */
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -23,3 +25,13 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+/* content */
+#info {
+  background-image: url("../img/beans.jpg");
+  background-size: cover;
+}
+#map {
+
+}
+
