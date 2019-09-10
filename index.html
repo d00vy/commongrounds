@@ -25,79 +25,113 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/core.css">
-  <title></title>
+  <title>Common Grounds Cafe and Co</title>
 </head>
 
 <body class="text-center">
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-  <!-- Add your site or application content here -->
-  <div class="container">
-  <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top py-0">
-    <div class="container d-flex justify-content-center navbar-nav">
-        <a class="nav-item nav-link" href="#">ABOUT</a>
-        <a class="nav-item nav-link" href="#">CONTACT</a>
-      <a class="nav-link px-4" id="navLogo" href="#" >BRAND</a>
-        <a class="nav-item nav-link" href="#">MENU</a>
-        <a class="nav-item nav-link" href="#">SPECIALS</a>
-    </div>
-  </nav>
 
-<section class="hero">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="img/carousel1.jpg" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>HEADER</h5>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/carousel2.jpg" alt="Second slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>HEADER</h5>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/carousel3.jpg" alt="Third slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>HEADER</h5>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
+  <!-- begin navbar -->
+  <nav id="navbar" class="navbar navbar-light fixed-top">
+    <a class="navbar-brand px-2" href="#">
+      <img src="img/Common Grounds logo.png" alt="Common Grounds Logo" width="300" height="90">
+    </a>
+
+    <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Info</a>
+          <a class="nav-item nav-link" href="#">Gallery</a>
+          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </div>
+      </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- begin header carousel -->
+  <header>
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url(img/carousel1.jpg)">
+          <div class="carousel-caption d-md-block">
+            <h2 class="display-4">First Slide</h2>
+            <p class="lead">This is a description for the first slide.</p>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/carousel2.jpg')">
+          <div class="carousel-caption d-md-block">
+            <h2 class="display-4">Second Slide</h2>
+            <p class="lead">This is a description for the second slide.</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/carousel3.jpg')">
+          <div class="carousel-caption d-md-block">
+            <button class="btn-info btn-lg">GET STARTED</button>
+            <p class="lead">This is a description for the third slide.</p>
+          </div>
+        </div>
       </div>
-</section>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+  <!-- end header carousel -->
 
-<section id="menu">
-<p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis similique quaerat vitae culpa animi esse.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, labore. Aperiam harum maiores fugiat nobis consectetur dolorum placeat ab reprehenderit quae quam nisi, quisquam atque reiciendis dolorem sapiente aut ullam esse. Rem molestiae doloribus doloremque cumque praesentium asperiores ipsam aperiam harum, ducimus architecto dignissimos, atque sunt deleniti dolore maiores est!</p>
-</section>
-
-</div>
-  <!-- End site or application content -->
+  <!-- Page Content -->
+  <section class="py-5">
+    <div class="container">
+      <h1 class="display-4">50/50 Section</h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, architecto optio. Harum minus
+        nihil sit aperiam rerum fugit minima quae qui! Ea sapiente unde quae ex ipsam itaque et, dolorem pariatur
+        voluptates tenetur! Perferendis consectetur eum ipsum adipisci, alias distinctio quam doloremque. Odit
+        blanditiis, tempora tempore dolor impedit similique adipisci illum non praesentium nostrum unde reiciendis quae
+        perspiciatis consectetur facilis cum hic suscipit dicta dolore. Inventore facilis culpa magni labore hic
+        praesentium, eum quo perferendis mollitia quod reiciendis tenetur non provident explicabo suscipit obcaecati
+        molestias possimus amet, et ipsa odit reprehenderit assumenda? Doloribus odit nostrum reprehenderit illo
+        mollitia pariatur aut possimus, rem vero omnis sint! Cumque corporis facilis soluta commodi, numquam consectetur
+        in blanditiis repudiandae est necessitatibus nobis ratione quisquam quam ipsa? Tenetur aliquid dicta aliquam
+        rerum eligendi? Recusandae repellendus accusantium blanditiis quo reiciendis rerum quis unde eaque in aut est
+        eligendi quibusdam ipsum, voluptates atque delectus perferendis nobis sed ea expedita aliquid vel minima! Sed
+        cumque dicta at ullam asperiores dolore cupiditate porro id corporis velit ex neque molestiae maiores, quo
+        magnam quos eligendi, facere quae omnis beatae, praesentium unde nobis! Commodi sunt accusantium molestiae,
+        tenetur optio aliquam tempore porro ex tempora nam doloremque architecto ipsa distinctio laborum error sapiente
+        veniam expedita eligendi! Nihil reprehenderit deserunt ea aut dolore ipsa explicabo ipsum sint tempora,
+        consectetur sit magnam corporis fugit esse quo reiciendis! Repellendus, culpa tempore veritatis voluptatibus est
+        adipisci dolorem iste iure impedit consequatur voluptatem delectus labore accusamus architecto repudiandae ipsa
+        et ad modi vitae error, atque sit! Officia voluptates odio saepe fugit quo, quis praesentium accusamus. Eaque
+        optio quia natus delectus et deserunt. Ad facilis voluptas dolorem alias eius quae placeat doloremque quo soluta
+        nostrum, nisi, eos adipisci cumque vel dolores expedita aperiam quisquam repellat enim fugit suscipit fuga
+        labore qui assumenda. Magnam sint illo odio labore delectus.</p>
+    </div>
+  </section>
 
   <!-- JavaScript  -->
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-  <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
   <!-- Popper.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -106,26 +140,16 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <!-- Boilerplate JS -->
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 
-  <!-- Optional/Custom JavaScript -->
   <script>
     $(function () {
       $(document).scroll(function () {
-        var $nav = $("#mainNavbar");
+        var $nav = $("#navbar");
         $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
       });
     });
   </script>
+
 </body>
 
 </html>
