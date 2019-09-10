@@ -34,12 +34,12 @@
   <![endif]-->
 
   <!-- begin navbar -->
-  <nav id="navbar" class="navbar navbar-light fixed-top">
-    <a class="navbar-brand px-2" href="#">
-      <img src="img/Common Grounds logo.png" alt="Common Grounds Logo" width="300" height="90">
+  <nav id="navbar" class="navbar navbar-light fixed-top flex-nowrap">
+    <a class="navbar-brand px-2 shadowed" href="#">
+      <img class="img-fluid" src="img/Common Grounds logo.png" alt="Common Grounds Logo" width="300" height="90">
     </a>
 
-    <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    <button class="navbar-toggler shadowed bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -68,6 +68,7 @@
           <div class="carousel-caption d-md-block">
             <h2 class="display-4">First Slide</h2>
             <p class="lead">This is a description for the first slide.</p>
+            <button class="btn-lg">GET STARTED</button>
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
@@ -75,13 +76,15 @@
           <div class="carousel-caption d-md-block">
             <h2 class="display-4">Second Slide</h2>
             <p class="lead">This is a description for the second slide.</p>
+            <button class="btn-lg">GET STARTED</button>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('img/carousel3.jpg')">
           <div class="carousel-caption d-md-block">
-            <button class="btn-info btn-lg">GET STARTED</button>
+            <h2 class="display-4">Third Slide</h2>
             <p class="lead">This is a description for the third slide.</p>
+            <button class="btn-lg">GET STARTED</button>
           </div>
         </div>
       </div>
@@ -100,7 +103,7 @@
   <!-- Page Content -->
   <section class="py-5 container-fluid">
     <div class="row align-items-center">
-      <div id="info" class="col-lg-6">
+      <div id="info" class="col-lg-6 py-3">
         <h2 class="display-4">DRINKS</h2>
         <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur explicabo quam labore? Fuga
             dicta cum voluptas provident quia delectus veritatis beatae impedit natus. Ea voluptatum quaerat modi quasi
@@ -114,7 +117,7 @@
             Suscipit culpa quibusdam quisquam omnis voluptates impedit ex sint, architecto maiores fuga sequi, id
             laudantium enim vitae, laboriosam illum ipsa? Mollitia, numquam eius!</p>
       </div>
-      <div id="map" class="col-lg-6">
+      <div id="map" class="col-lg-6 py-3">
         <h2 class="display-4">EATS</h2>
         <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur explicabo quam labore? Fuga
           dicta cum voluptas provident quia delectus veritatis beatae impedit natus. Ea voluptatum quaerat modi quasi
@@ -131,12 +134,47 @@
     </div>
   </section>
 
+  <section class="py-5 container-fluid">
+    <div class="row align-items-center">
+        <div id="map" class="col-lg-6 py-3">
+            <h2 class="display-4">EATS</h2>
+            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur explicabo quam labore? Fuga
+              dicta cum voluptas provident quia delectus veritatis beatae impedit natus. Ea voluptatum quaerat modi quasi
+              voluptate, quisquam blanditiis illo aut sapiente consectetur. Sed repudiandae rem commodi quasi sint officia
+              aut consequatur ab, nobis doloribus voluptatem nisi dicta, et libero voluptatum, itaque ullam quod voluptas
+              officiis? Ea quos omnis aliquam iusto quae hic sunt repellendus non minima sit dolorum, blanditiis debitis
+              laudantium ratione ipsam? Praesentium id eius quod, sapiente, minus asperiores non veritatis tempore ipsum
+              assumenda repellat mollitia facere ullam numquam impedit accusantium, animi nesciunt ea sunt doloribus.
+              Officia aliquid illo architecto, voluptates iste delectus repellat ex optio maiores natus veniam ipsam
+              adipisci, consequatur animi quod asperiores provident commodi odio vel inventore aperiam accusantium at.
+              Suscipit culpa quibusdam quisquam omnis voluptates impedit ex sint, architecto maiores fuga sequi, id
+              laudantium enim vitae, laboriosam illum ipsa? Mollitia, numquam eius!</p>
+          </div>
+      <div id="info" class="col-lg-6 py-3">
+        <h2 class="display-4">DRINKS</h2>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur explicabo quam labore? Fuga
+            dicta cum voluptas provident quia delectus veritatis beatae impedit natus. Ea voluptatum quaerat modi quasi
+            voluptate, quisquam blanditiis illo aut sapiente consectetur. Sed repudiandae rem commodi quasi sint officia
+            aut consequatur ab, nobis doloribus voluptatem nisi dicta, et libero voluptatum, itaque ullam quod voluptas
+            officiis? Ea quos omnis aliquam iusto quae hic sunt repellendus non minima sit dolorum, blanditiis debitis
+            laudantium ratione ipsam? Praesentium id eius quod, sapiente, minus asperiores non veritatis tempore ipsum
+            assumenda repellat mollitia facere ullam numquam impedit accusantium, animi nesciunt ea sunt doloribus.
+            Officia aliquid illo architecto, voluptates iste delectus repellat ex optio maiores natus veniam ipsam
+            adipisci, consequatur animi quod asperiores provident commodi odio vel inventore aperiam accusantium at.
+            Suscipit culpa quibusdam quisquam omnis voluptates impedit ex sint, architecto maiores fuga sequi, id
+            laudantium enim vitae, laboriosam illum ipsa? Mollitia, numquam eius!</p>
+      </div>
+    </div>
+  </section>
+
+
   <footer class="font-small pt-4">
     <div class="container-fluid text-center">
-      <div class="row">
+      <div class="row align-items-center">
 
           <div class="col-lg-3 mt-4 mb-1">
               <h5 class="text-uppercase font-weight-bold mb-4">HOURS</h5>
+              <hr>
               <ul class="list-unstyled">
                 <li>
                   MONDAY ..... 7AM - 5:30PM
@@ -162,7 +200,7 @@
               </ul>
             </div>
 
-        <div class="col-lg-6 mt-4 mb-1 embed-responsive">
+        <div class="col-lg-6 mt-4 mb-1 embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" style="border:0"
             src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJHTd14AiJfogR9y4JW33_Clg&key=AIzaSyBJK1OshsDpTR-L6U98PDWaEIil3n4y5e0" allowfullscreen></iframe>
         </div>
@@ -190,25 +228,20 @@
       </div>
 
       <!-- Social buttons -->
-      <div class="text-center mt-4">
-        <ul class="list-unstyled list-inline">
+      <div class="text-center mt-5">
+        <ul class="list-unstyled list-inline"  id="socials">
           <li class="list-inline-item">
-            <a class="btn-lg mx-1">
+            <a href="#" class="mx-3">
               <i class="fab fa-facebook-f"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-lg mx-1">
+            <a  href="#" class="mx-3">
               <i class="fab fa-twitter"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-lg mx-1">
-              <i class="fab fa-google-plus-g"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="btn-lg mx-1">
+            <a  href="#" class="mx-3">
               <i class="fab fa-linkedin-in"></i>
             </a>
           </li>
