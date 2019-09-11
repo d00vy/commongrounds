@@ -1,59 +1,82 @@
 body {
-    background: black;
-    font-family: 'Yanone Kaffeesatz';
-    color: white;
-    font-size: 1.2rem;
+  background: black;
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 300;
+  color: white;
+  font-size: 1.5rem;
 }
 a {
   color: white;
 }
-h1,h2,h5 {
-  font-family: "Violette";
+/* fonts */
+  /* branding primary */
+  .violette {
+    font-family: "Violette";
+    text-shadow:
+    0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 8px 13px rgba(255, 255, 255, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+  }
+  .violette-2 {
+    font-family: "Violette_2";
+  }
+  /* branding secondary */
+  .kenyan {
+    font-family: "Kenyan Coffee Rg";
+  }
+  .kenyan-bold {
+    font-family: "Kenyan Coffee Rg";
+    font-weight: bold;
+  }
+  /* body font */
+.kaffee {
+  font-family: "Yanone Kaffeesatz";
 }
-h3,h4 {
-  font-family: 'Kenyan Coffee Rg';
+.kaffee-thin {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 100;
+}
+.kaffee-bold {
+  font-family: "Yanone Kaffeesatz";
   font-weight: bold;
+}
+.kaffee-light {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 300;
 }
 
 /* navbar */
-.navbar-brand {
-  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-  0px 8px 13px rgba(0,0,0,0.1),
-  0px 18px 23px rgba(0,0,0,0.1);
-}
 #brand {
-  font-family: "Violette";
+  color: black;
   font-size: 2.5rem;
+  text-shadow:
+  0px 4px 3px rgba(0, 0, 0, 0.4),
+  0px 8px 13px rgba(255, 255, 255, 0.1),
+  0px 18px 23px rgba(0, 0, 0, 0.1);
 }
-#subbrand {
-  font-family "Kenyan Coffee Rg";
-  font-weight: bold;
-}
-
 .shadowed {
-  box-shadow: 0px 4px 3px rgba(255, 255, 255, 0.4),
-  0px 8px 13px rgba(255,255,255,0.1),
-  0px 18px 23px rgba(255,255,255,0.1);
+  box-shadow:
+  0px 4px 3px rgba(0, 0, 0, 0.4),
+  0px 8px 13px rgba(255, 255, 255, 0.1),
+  0px 18px 23px rgba(0, 0, 0, 0.1);
 }
-
 #navbar.scrolled {
-  background: rgba(226, 226, 226, 0.6);
+  background: rgba(170, 170, 170, 0.5);
   transition: background 500ms;
-  box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-  0px 8px 13px rgba(0,0,0,0.1),
-  0px 18px 23px rgba(0,0,0,0.1);
-}
-#navbar.scrolled .shadowed {
-  box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-  0px 8px 13px rgba(0,0,0,0.1),
-  0px 18px 23px rgba(0,0,0,0.1);
+  box-shadow:
+  0px 4px 3px rgba(0, 0, 0, 0.4),
+  0px 8px 13px rgba(0, 0, 0, 0.1),
+  0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 /* header */
+.carousel div {
+  color: black;
+}
 .carousel-item {
   height: 100vh;
   min-height: 350px;
-  background: no-repeat center center scroll;
+  background: no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,17 +85,26 @@ h3,h4 {
 
 /* content */
 #info {
-  background-image: url("../img/beans.jpg");
+  background: url("../img/aboutBackgroundDark.jpg");
   background-size: cover;
 }
-
-
-/* footer */
+#info h2 {
+  font-size: 4rem;
+}
 #socials i {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 #socials i:hover {
   -webkit-transform: scale(1.2);
-  -ms-transform    : scale(1.2);
-  transform        : scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
+
+/* gallery  */
+hr {
+  border: 1px solid white;
+  max-width: 90%;
+  margin: auto;
+}
+
+/* footer */
