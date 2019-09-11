@@ -9,26 +9,23 @@ a {
   color: white;
 }
 /* fonts */
-  /* branding primary */
-  .violette {
-    font-family: "Violette";
-    text-shadow:
-    0px 4px 3px rgba(0, 0, 0, 0.4),
-    0px 8px 13px rgba(255, 255, 255, 0.1),
-    0px 18px 23px rgba(0, 0, 0, 0.1);
-  }
-  .violette-2 {
-    font-family: "Violette_2";
-  }
-  /* branding secondary */
-  .kenyan {
-    font-family: "Kenyan Coffee Rg";
-  }
-  .kenyan-bold {
-    font-family: "Kenyan Coffee Rg";
-    font-weight: bold;
-  }
-  /* body font */
+/* branding primary */
+.violette {
+  font-family: "Violette";
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(255, 255, 255, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+.violette-2 {
+  font-family: "Violette_2";
+}
+/* branding secondary */
+.kenyan {
+  font-family: "Kenyan Coffee Rg";
+}
+.kenyan-bold {
+  font-family: "Kenyan Coffee Rg";
+  font-weight: bold;
+}
+/* body font */
 .kaffee {
   font-family: "Yanone Kaffeesatz";
 }
@@ -49,24 +46,15 @@ a {
 #brand {
   color: black;
   font-size: 2.5rem;
-  text-shadow:
-  0px 4px 3px rgba(0, 0, 0, 0.4),
-  0px 8px 13px rgba(255, 255, 255, 0.1),
-  0px 18px 23px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(255, 255, 255, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 .shadowed {
-  box-shadow:
-  0px 4px 3px rgba(0, 0, 0, 0.4),
-  0px 8px 13px rgba(255, 255, 255, 0.1),
-  0px 18px 23px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(255, 255, 255, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 #navbar.scrolled {
   background: rgba(170, 170, 170, 0.5);
   transition: background 500ms;
-  box-shadow:
-  0px 4px 3px rgba(0, 0, 0, 0.4),
-  0px 8px 13px rgba(0, 0, 0, 0.1),
-  0px 18px 23px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 /* header */
@@ -81,6 +69,9 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.carousel h1 {
+  text-shadow: 0px 4px 3px rgba(255, 255, 255, 0.6), 0px 8px 13px rgba(255, 255, 255, 0.2), 0px 18px 23px rgba(0, 0, 0, 0.2);
 }
 
 /* content */
@@ -103,8 +94,7 @@ a {
 /* gallery  */
 hr {
   border: 1px solid white;
-  max-width: 90%;
+  max-width: 95%;
   margin: auto;
+  padding: 0;
 }
-
-/* footer */
