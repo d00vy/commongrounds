@@ -44,4 +44,4 @@ This is a simple, fast landing page built for a local non-profit cafe using free
 
 ---
 
-_Copyright © 2018 | [d00vy](https://github.com/d00vy) | <the@d00vy.com>_
+_Copyright © [d00vy](https://github.com/d00vy) | <the@d00vy.com>_
